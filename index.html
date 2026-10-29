@@ -314,6 +314,10 @@ nav.scrolled .menu a:hover{color:var(--navy)}
 .doc.soon small::after{content:" · segera tersedia"}
 @media(max-width:900px){.works{grid-template-columns:1fr}}
 
+.refs{list-style:none;margin-top:28px;display:grid;gap:12px;counter-reset:r}
+.refs li{counter-increment:r;position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 56px;font-size:15px;line-height:1.6;overflow-wrap:anywhere}
+.refs li::before{content:counter(r);position:absolute;left:14px;top:14px;width:28px;height:28px;border-radius:8px;background:var(--grad);color:#fff;font:800 13px/28px var(--head);text-align:center}
+.refs a{color:var(--violet)}
 /* TIM */
 .team-band{position:relative;border-radius:32px;overflow:hidden;background:var(--grad-dark);color:#fff;display:grid;grid-template-columns:1fr 1fr;align-items:end}
 .team-band .photo{align-self:end;padding-top:30px;position:relative}
@@ -390,7 +394,7 @@ section:not(.dark)::after{content:"";position:absolute;inset:0;z-index:0;pointer
   <div class="wrap">
     <a class="brand" href="#top"><img src="aset/logo.png" alt="">NOVA</a>
     <div class="menu">
-      <a href="#fitur">Fitur</a><a href="#latar">Latar</a><a href="#lensa">Konsep</a><a href="#peran">Peran</a><a href="#hasil">Hasil uji</a><a href="#tim">Tim</a>
+      <a href="#fitur">Fitur</a><a href="#latar">Latar</a><a href="#lensa">Konsep</a><a href="#peran">Peran</a><a href="#hasil">Hasil uji</a><a href="#pustaka">Pustaka</a><a href="#tim">Tim</a>
     </div>
     <a class="btn btn-main btn-sm" data-link="prototipe" href="#peran">Coba prototipe</a>
   </div>
@@ -647,6 +651,40 @@ section:not(.dark)::after{content:"";position:absolute;inset:0;z-index:0;pointer
         <a class="doc" data-link="poster" href="#"><i><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M8 17h8"/></svg></i><span><b>Poster</b><small>Lihat di Instagram</small></span></a>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- DAFTAR PUSTAKA -->
+<section id="pustaka" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh t"><span class="num">≡</span><span class="bar">Daftar pustaka</span></div>
+    <p class="lead">Rujukan laporan akhir NOVA (24 sumber), disusun sesuai Laporan Akhir GEMASTIK XIX 2026.</p>
+    <ol class="refs">
+        <li>Almeqdad, Q. I., Alodat, A. M., Alquraan, M. F., Mohaidat, M. A., &amp; Al-Makhzoomy, A. K. (2023). The effectiveness of universal design for learning: A systematic review of the literature and meta-analysis. Cogent Education, 10(1), 2218191. <a href="https://doi.org/10.1080/2331186X.2023.2218191" target="_blank" rel="noopener">https://doi.org/10.1080/2331186X.2023.2218191</a></li>
+        <li>Bangor, A., Kortum, P., &amp; Miller, J. (2009). Determining what individual SUS scores mean: Adding an adjective rating scale. Journal of Usability Studies, 4(3), 114–123.</li>
+        <li>Brooke, J. (1996). SUS: A &quot;quick and dirty&quot; usability scale. Dalam P. W. Jordan, B. Thomas, B. A. Weerdmeester, &amp; I. L. McClelland (Ed.), Usability evaluation in industry (hlm. 189–194). Taylor &amp; Francis.</li>
+        <li>Carlon, M. K. J., &amp; Cross, J. S. (2022). Knowledge tracing for adaptive learning in a metacognitive tutor. Open Education Studies, 4(1), 206–224. <a href="https://doi.org/10.1515/edu-2022-0013" target="_blank" rel="noopener">https://doi.org/10.1515/edu-2022-0013</a></li>
+        <li>Dell&#x27;Anna, S., Frizzarin, A., &amp; Biagiotti, G. (2026). Practice-oriented research on differentiation strategies in primary and secondary education: A systematic review. Teaching and Teacher Education, 177, 105559. <a href="https://doi.org/10.1016/j.tate.2026.105559" target="_blank" rel="noopener">https://doi.org/10.1016/j.tate.2026.105559</a></li>
+        <li>Design Council. (2019). Framework for innovation: Design Council&#x27;s evolved Double Diamond. Design Council.</li>
+        <li>Ebner, S., MacDonald, M. K., Grekov, P., &amp; Aspiranti, K. B. (2025). A meta-analytic review of the concrete-representational-abstract math approach. Learning Disabilities Research &amp; Practice, 40(1). <a href="https://doi.org/10.1177/09388982241292299" target="_blank" rel="noopener">https://doi.org/10.1177/09388982241292299</a></li>
+        <li>Fathonah, N., &amp; Pamungkas, B. (2026). Improving fraction achievement through concrete-representational-abstract and experiential learning among fourth-grade students at risk. Journal of Innovation and Research in Primary Education, 5(3), 5242–5250. <a href="https://doi.org/10.56916/jirpe.v5i3.4082" target="_blank" rel="noopener">https://doi.org/10.56916/jirpe.v5i3.4082</a></li>
+        <li>Global Education Monitoring Report Team. (2020). Global education monitoring report 2020: Inclusion and education: All means all. UNESCO. <a href="https://doi.org/10.54676/JJNK6989" target="_blank" rel="noopener">https://doi.org/10.54676/JJNK6989</a></li>
+        <li>Jumanah, Nugroho, A., &amp; Ratnasari, D. T. (2026). Implementasi kebijakan pendidikan inklusif dalam upaya pemerataan pendidikan di Provinsi Banten. Transparansi: Jurnal Ilmiah Ilmu Administrasi, 9(1). <a href="https://doi.org/10.31334/transparansi.v9i1.5737" target="_blank" rel="noopener">https://doi.org/10.31334/transparansi.v9i1.5737</a></li>
+        <li>Matjie, M. A., Nethavhani, A., &amp; Matlakala, M. (2026). AI and the digital divide in education. Frontiers in Computer Science, 8, 1759027. <a href="https://doi.org/10.3389/fcomp.2026.1759027" target="_blank" rel="noopener">https://doi.org/10.3389/fcomp.2026.1759027</a></li>
+        <li>Miao, F., &amp; Holmes, W. (2023). Guidance for generative AI in education and research. UNESCO. <a href="https://doi.org/10.54675/EWZM9535" target="_blank" rel="noopener">https://doi.org/10.54675/EWZM9535</a></li>
+        <li>Morris, C., Agbo, B., Osman, M., Basketts, J., &amp; Kyriacou, T. (2026). The components and implications of teacher workload: A review. Educational Research, 68(2), 173–194. <a href="https://doi.org/10.1080/00131881.2026.2629284" target="_blank" rel="noopener">https://doi.org/10.1080/00131881.2026.2629284</a></li>
+        <li>Nielsen, J. (1993). Usability engineering. Academic Press.</li>
+        <li>Pandey, H. P., Maraseni, T. N., &amp; Apan, A. A. (2024). Enhancing systematic literature review adapting &#x27;double diamond approach&#x27;. Heliyon, 10(22), e40581. <a href="https://doi.org/10.1016/j.heliyon.2024.e40581" target="_blank" rel="noopener">https://doi.org/10.1016/j.heliyon.2024.e40581</a></li>
+        <li>Read, J. C., &amp; MacFarlane, S. (2006). Using the fun toolkit and other survey methods to gather opinions in child computer interaction. Proceedings of the 2006 Conference on Interaction Design and Children, 81–88. <a href="https://doi.org/10.1145/1139073.1139096" target="_blank" rel="noopener">https://doi.org/10.1145/1139073.1139096</a></li>
+        <li>Republik Indonesia. (2022). Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi.</li>
+        <li>Riva, G. (2026). The architecture of cognitive amplification: Enhanced cognitive scaffolding as a resolution to the comfort-growth paradox in AI-supported learning. Cognitive Systems Research, 99, 101500. <a href="https://doi.org/10.1016/j.cogsys.2026.101500" target="_blank" rel="noopener">https://doi.org/10.1016/j.cogsys.2026.101500</a></li>
+        <li>Schrepp, M., Hinderks, A., &amp; Thomaschewski, J. (2017). Design and evaluation of a short version of the User Experience Questionnaire (UEQ-S). International Journal of Interactive Multimedia and Artificial Intelligence, 4(6), 103–108. <a href="https://doi.org/10.9781/ijimai.2017.09.001" target="_blank" rel="noopener">https://doi.org/10.9781/ijimai.2017.09.001</a></li>
+        <li>Sharma, S., Mittal, P., Kumar, M., &amp; Bhardwaj, V. (2025). The role of large language models in personalized learning: A systematic review of educational impact. Discover Sustainability, 6, 243. <a href="https://doi.org/10.1007/s43621-025-01094-z" target="_blank" rel="noopener">https://doi.org/10.1007/s43621-025-01094-z</a></li>
+        <li>Sortwell, A., Gkintoni, E., Díaz-García, J., Ellerton, P., Ferraz, R., &amp; Hine, G. (2026). Beyond cognitive load theory: Why learning needs more than memory management. Brain Sciences, 16(1), 109. <a href="https://doi.org/10.3390/brainsci16010109" target="_blank" rel="noopener">https://doi.org/10.3390/brainsci16010109</a></li>
+        <li>Surur, M., Salma, H. I. S., Iislamiyah, I., Utomo, D. A., &amp; Hady, A. F. (2026). Strategi pembelajaran berbasis media visual untuk meningkatkan pemahaman anak slow learner di Desa Grujugan. Jurnal Akademik Pengabdian Masyarakat, 4(1). <a href="https://doi.org/10.61722/japm.v4i1.8547" target="_blank" rel="noopener">https://doi.org/10.61722/japm.v4i1.8547</a></li>
+        <li>Trisnani, R. P., &amp; Wardani, S. Y. (2026). Solution-based counseling for slow learners children in facing learning difficulties in inclusive schools. G-Couns: Jurnal Bimbingan dan Konseling, 10(2), 1736–1744. <a href="https://doi.org/10.31316/g-couns.v10i02.8165" target="_blank" rel="noopener">https://doi.org/10.31316/g-couns.v10i02.8165</a></li>
+        <li>Yuensook, T., Jantakoon, T., &amp; Limpinan, P. (2026). AI-driven adaptive learning systems in higher education: A systematic review. Journal of Education and Learning, 15(2), 117–132. <a href="https://doi.org/10.5539/jel.v15n2p117" target="_blank" rel="noopener">https://doi.org/10.5539/jel.v15n2p117</a></li>
+    </ol>
   </div>
 </section>
 
